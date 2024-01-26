@@ -59,35 +59,6 @@
                                                 foreach($rewies as $thing_one) {
 
                                                         $show_img = base64_encode($thing_one[4]);
-
-                                                        // echo '
-                                                        
-                                                        //         <div class = "product">
-                                                        //                 <div class = "product-content">
-                                                        //                         <div class = "product-img">
-                                                        //                                 <img src="data:image/png;base64,'.$show_img.'" alt ="product image"> 
-                                                        //                         </div>
-                                                        //                         <div class = "product-btns">
-                                                        //                                 <form action="./delivery/delivery.html">
-                                                        //                                         <button type = "submit" class = "btn-buy"> Добавить в корзину
-                                                        //                                         <span><i class = "fas fa-shopping-cart"></i></span>
-                                                        //                                         </button>
-                                                        //                                 </form>
-                                                        //                         </div>
-                                                        //                 </div>        
-
-                                                        //                 <div class = "product-info">
-                                                        //                         <div class = "product-info-top">
-                                                        //                                 <h2 class = "sm-title">'.$thing_one[3].'</h2>
-                                                        //                         </div>
-                                                        //                         <a href = "#" class = "product-name">'.$thing_one[1].'</a>
-                                                        //                         <p class = "product-price">₽'.$thing_one[2].'</p>       
-                                                        //                 </div>
-                                                        //         </div>
-                                                        // ';
-
-
-
                                                         echo '
   
                                                         <form action="./delivery/delivery.php" method="POST" target="_blank">
