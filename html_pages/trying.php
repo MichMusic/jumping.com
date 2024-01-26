@@ -49,7 +49,7 @@
 
                         <div class = "product-items">
                                 <?php
-                                        $connection = mysqli_connect('localhost','root', '');
+                                        $connection = mysqli_connect('127.0.0.1:3306','', '');
                                         $connection->query('use `SmartHappyDataBase`');
                                         try {
                                                 $message_client_about_things;
